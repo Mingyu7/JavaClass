@@ -1,5 +1,5 @@
 
-public abstract class Animal {
+public abstract class Animal { // 추상클래스
 	private String species;
 	private int leg;
 
@@ -25,10 +25,10 @@ public abstract class Animal {
 	}
 	
 	public void run() {
-		System.out.println("�޷�~~");
+		System.out.println("´Þ·Á~~");
 	}
 	
-	abstract public void eat();
-	abstract public void sound();
+	abstract public void eat(); // 추상 메소드
+	abstract public void sound(); // 추상 메소드
 	
 }
