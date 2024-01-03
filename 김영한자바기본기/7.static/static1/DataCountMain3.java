@@ -10,8 +10,8 @@ public class DataCountMain3 {
         System.out.println("B count=" + Data3.count);
 
         Data3 data3 = new Data3("C");
-        System.out.println("C count=" + Data3.count); // static 변수 접근 >> 클래스명.static변수
-    
+        System.out.println("C count=" + Data3.count);
+
         //추가
         //인스턴스를 통한 접근
         Data3 data4 = new Data3("D");
